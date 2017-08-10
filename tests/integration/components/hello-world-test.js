@@ -20,6 +20,6 @@ describe('Integration | Component | hello world', function() {
 
     this.render(hbs`{{hello-world}}`);
     expect(this.$()).to.have.length(1);
-    expect(this.$().text().trim()).to.equal('Hello World');
+    expect(this.$().text().trim()).to.equal('Hello');
   });
 });
